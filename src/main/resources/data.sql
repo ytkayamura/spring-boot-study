@@ -1,3 +1,1 @@
-/*
-INSERT INTO person (name) VALUES('Alice');
- */
+INSERT INTO person (id, name) VALUES(1, 'Alice') ON DUPLICATE KEY UPDATE name = 'Alice2';
